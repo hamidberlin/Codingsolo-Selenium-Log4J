@@ -1,0 +1,7 @@
+[INFO] 2025-03-22 14:03:35,942 TestForm1ParameterizedSeleniumFirefox.setUp() - Initialisiere Webdriver
+[INFO] 2025-03-22 14:03:38,587 TestForm1ParameterizedSeleniumFirefox.testForm1() - Starte TestForm1 Testseite
+[INFO] 2025-03-22 14:03:39,332 TestForm1ParameterizedSeleniumFirefox.testForm1() - Login war erfolgreich
+[INFO] 2025-03-22 14:03:40,694 TestForm1ParameterizedSeleniumFirefox.testForm1() - Navigation zum Formular
+[INFO] 2025-03-22 14:03:40,695 TestForm1ParameterizedSeleniumFirefox.testForm1() - Starte Eingabe Formular
+[INFO] 2025-03-22 14:03:42,189 TestForm1ParameterizedSeleniumFirefox.testForm1() - Eingaben durchgefuehrt. Speicher das Formular
+[INFO] 2025-03-22 14:03:42,809 TestForm1ParameterizedSeleniumFirefox.tearDown() - Test abgeschlossen- ich raume
