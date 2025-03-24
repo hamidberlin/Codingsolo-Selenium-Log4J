@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="INFO">
-    <Properties>ty>
+    <!-- Definiert allgemeine Eigenschaften (Properties) -->
+    <Properties>
+        <!-- Name für die Log-Datei, der später verwendet wird -->
         <Property name="rollingFileName">selenium_log</Property>
     </Properties>
+
     <Appenders>
+        <!-- Konsolen-Logging: Gibt Logs in der Konsole aus -->
         <Console name="console" target="SYSTEM_OUT">
             <PatternLayout
                 pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
         </Console>
 
+        <!-- RollingFile Appender: Schreibt Logs in eine Datei mit Rotation -->
         <RollingFile name="rollingFile"
             fileName="${rollingFileName}.log"
             filePattern="${logPath}/${rollingFileName}_%d{yyyy-MM-dd}.log.gz">
+            <!-- Muster für das Log-Format in der Datei -->
             <PatternLayout
                 pattern="[%level] %d{DEFAULT} %c{1}.%M() - %msg%n%throwable{short.lineNumber}" />
             <Policies>
+                <!-- Erstellt eine neue Log-Datei bei jedem Start -->
                 <OnStartupTriggeringPolicy />
+                <!-- Rotiert die Datei jeden Tag -->
                 <TimeBasedTriggeringPolicy interval="1" modulate="true" />
             </Policies>
         </RollingFile>
 
     </Appenders>
+
     <Loggers>
+        <!-- Root Logger: Definiert das Logging-Level und welche Appender genutzt werden -->
         <Root level="DEBUG" additivity="false">
             <AppenderRef ref="console" />
             <AppenderRef ref="rollingFile" />
