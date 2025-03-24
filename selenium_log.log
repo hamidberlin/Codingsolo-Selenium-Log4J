@@ -1,7 +1,48 @@
-[INFO] 2025-03-24 12:43:55,394 TestForm1ParameterizedSeleniumFirefox.setUp() - Initialisiere Webdriver
-[INFO] 2025-03-24 12:43:58,420 TestForm1ParameterizedSeleniumFirefox.testForm1() - Starte TestForm1 Testseite
-[INFO] 2025-03-24 12:43:59,504 TestForm1ParameterizedSeleniumFirefox.testForm1() - Login war erfolgreich
-[INFO] 2025-03-24 12:44:00,936 TestForm1ParameterizedSeleniumFirefox.testForm1() - Navigation zum Formular
-[INFO] 2025-03-24 12:44:00,938 TestForm1ParameterizedSeleniumFirefox.testForm1() - Starte Eingabe Formular
-[INFO] 2025-03-24 12:44:02,470 TestForm1ParameterizedSeleniumFirefox.testForm1() - Eingaben durchgefuehrt. Speicher das Formular
-[INFO] 2025-03-24 12:44:03,095 TestForm1ParameterizedSeleniumFirefox.tearDown() - Test abgeschlossen- ich raume
+[INFO] 2025-03-24 15:56:41,267 TestForm1ParameterizedSeleniumFirefox.setUp() - Initialisiere Webdriver
+[INFO] 2025-03-24 15:56:43,821 TestForm1ParameterizedSeleniumFirefox.testForm1() - Starte TestForm1 Testseite
+[INFO] 2025-03-24 15:56:43,835 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> css selector: #__ac_name] wurde gefunden. 
+[INFO] 2025-03-24 15:56:43,848 Selenium Test Pages.afterChangeValueOf() - Der Wert [selenium102] wurde an das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> css selector: #__ac_name] gesendet. 
+[INFO] 2025-03-24 15:56:43,851 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> xpath: //input[@id='__ac_password']] wurde gefunden. 
+[INFO] 2025-03-24 15:56:43,856 Selenium Test Pages.afterChangeValueOf() - Der Wert [codingsolo] wurde an das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> xpath: //input[@id='__ac_password']] gesendet. 
+[INFO] 2025-03-24 15:56:43,858 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> xpath: //input[@value='Anmelden']] wurde gefunden. 
+[INFO] 2025-03-24 15:56:44,598 Selenium Test Pages.afterClickOn() - Das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> xpath: //input[@value='Anmelden']] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:44,602 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: portaltab-burger-menu] wurde gefunden. 
+[INFO] 2025-03-24 15:56:44,833 Selenium Test Pages.afterClickOn() - Das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: portaltab-burger-menu] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:44,854 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> link text: Selenium Testapplikationen] wurde gefunden. 
+[INFO] 2025-03-24 15:56:45,491 Selenium Test Pages.afterClickOn() - Das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> link text: Selenium Testapplikationen] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:45,510 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> link text: Selenium Test Form1] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,054 Selenium Test Pages.afterClickOn() - Das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> link text: Selenium Test Form1] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:46,054 TestForm1ParameterizedSeleniumFirefox.testForm1() - Navigation zum Formular
+[INFO] 2025-03-24 15:56:46,061 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-betreff] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,080 Selenium Test Pages.afterChangeValueOf() - Der Wert [Parametrisierter Test 1] wurde an das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-betreff] gesendet. 
+[INFO] 2025-03-24 15:56:46,083 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-name] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,090 Selenium Test Pages.afterChangeValueOf() - Der Wert [Dieter] wurde an das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-name] gesendet. 
+[INFO] 2025-03-24 15:56:46,093 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl1] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,096 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl1] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,104 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl1] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,108 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl1] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,319 Selenium Test Pages.afterClickOn() - Das Element [[[[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl1]] -> xpath: .//option[normalize-space(.) = "Java Grundlagen Kurs mit Dieter"]] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:46,326 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,335 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,347 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,351 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,593 Selenium Test Pages.afterClickOn() - Das Element [[[[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from]] -> tag name: option] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:46,600 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,606 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,862 Selenium Test Pages.afterClickOn() - Das Element [[[[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from]] -> tag name: option] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:46,869 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from] wurde gefunden. 
+[INFO] 2025-03-24 15:56:46,876 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from] wurde gefunden. 
+[INFO] 2025-03-24 15:56:47,116 Selenium Test Pages.afterClickOn() - Das Element [[[[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-from]] -> tag name: option] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:47,122 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> name: from2toButton] wurde gefunden. 
+[INFO] 2025-03-24 15:56:47,336 Selenium Test Pages.afterClickOn() - Das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> name: from2toButton] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:47,342 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-to] wurde gefunden. 
+[INFO] 2025-03-24 15:56:47,350 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-to] wurde gefunden. 
+[INFO] 2025-03-24 15:56:47,360 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-to] wurde gefunden. 
+[INFO] 2025-03-24 15:56:47,364 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: form-widgets-auswahl2-to] wurde gefunden. 
+[INFO] 2025-03-24 15:56:47,380 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> name: upButton] wurde gefunden. 
+[INFO] 2025-03-24 15:56:47,592 Selenium Test Pages.afterClickOn() - Das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> name: upButton] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:47,597 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> name: form.buttons.speichern] wurde gefunden. 
+[INFO] 2025-03-24 15:56:48,196 Selenium Test Pages.afterClickOn() - Das Element [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> name: form.buttons.speichern] wurde angeklickt. 
+[INFO] 2025-03-24 15:56:48,200 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> id: message] wurde gefunden. 
+[INFO] 2025-03-24 15:56:48,207 Selenium Test Pages.afterFindBy() - Webelement [[FirefoxDriver: firefox on MAC (f2faf0aa-f3a3-4899-832e-4da868990ecd)] -> xpath: //ul[@id='companies']/li[1]] wurde gefunden. 
+[INFO] 2025-03-24 15:56:48,211 TestForm1ParameterizedSeleniumFirefox.tearDown() - Test abgeschlossen - ich räume auf
