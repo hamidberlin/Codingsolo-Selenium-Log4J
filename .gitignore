@@ -1,0 +1,30 @@
+# Java & Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Log-Dateien
+*.log
+*.gz
+${logPath}/
+
+# Eclipse / IntelliJ IDEA / VS Code
+*.iml
+.idea/
+*.class
+*.project
+*.classpath
+.vscode/
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Konfigurationsdateien mit sensiblen Daten
+myconfig.properties
+
+# Git ignorierte Verzeichnisse
+.gitignore
+
