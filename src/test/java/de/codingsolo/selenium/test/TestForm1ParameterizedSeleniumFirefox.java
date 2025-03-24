@@ -137,29 +137,41 @@ public class TestForm1ParameterizedSeleniumFirefox {
     /**
      * Parameterdaten für den Testlauf bereitstellen
      */
+    // Die Methode `provideTestData()` stellt Testdaten für parametrisierte Tests bereit
     @Parameters(name = "{0}")
 	public static Collection<Object[]> provideTestData() throws Exception {
 
+		// Sammlung zur Speicherung der Testdaten
 		Collection<Object[]> collection;
 
+		// Ein zweidimensionales Array, das verschiedene Testwerte enthält
 		Object[][] daten = { { "Test Form 1 Test 1 FireFox", "firefox", "selenium102", "codingsolo",
 				"Parametrisierter Test 1", "Dieter", "Java Grundlagen Kurs mit Dieter", new int[] { 2, 4, 6 },
 				new int[] { 2 }, "Java Grundlagen Kurs", "Magazzini Alimentari Riuniti" } };
 
+		// Umwandlung des Arrays in eine Liste von Objekten
 		List<Object[]> listObjects = Arrays.asList(daten);
+		// Erstellung einer `ArrayList`, die als Rückgabewert dient
 		collection = new ArrayList<Object[]>(listObjects);
 
+		// Die Testdaten werden an JUnit zurückgegeben
 		return collection;
 	}
 	
+	// Methode zur Aufnahme eines Screenshots während des Tests
 	private void takeScreenshot(WebDriver driver) {
 		
 		try {
+			// Screenshot erstellen und als Datei speichern
 			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			Path srcPath = srcFile.toPath();
+			// Pfad zur Screenshot-Datei
+			Path srcPath = srcFile.toPath();			
+			// Zielpfad für den Screenshot im Projektordner
 			Path targetPath = new File("scrennshot_testform1.png").toPath();
+			// Kopiere den Screenshot an das Zielverzeichnis und überschreibe ggf. existierende Dateien
 			Files.copy(srcPath, targetPath, StandardCopyOption.REPLACE_EXISTING);
 		} catch (Exception e) {
+			// Fehlerbehandlung und Logging der Fehlermeldung
 			logger.error(e.getMessage());
 		}
 		
