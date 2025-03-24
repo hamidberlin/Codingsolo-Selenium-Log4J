@@ -3,6 +3,10 @@ package de.codingsolo.selenium.test;
 // Importiert benötigte JUnit- und Selenium-Bibliotheken
 import static org.junit.Assert.*;
 
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -16,6 +20,8 @@ import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import de.codingsolo.selenium.configuration.Config;
@@ -77,6 +83,7 @@ public class TestForm1ParameterizedSeleniumFirefox {
     @After
     public void tearDown() throws Exception {
     	logger.info("Test abgeschlossen- ich raume");
+    	takeScreenshot(driver);
         driver.quit();
     }
 
@@ -143,5 +150,18 @@ public class TestForm1ParameterizedSeleniumFirefox {
 		collection = new ArrayList<Object[]>(listObjects);
 
 		return collection;
+	}
+	
+	private void takeScreenshot(WebDriver driver) {
+		
+		try {
+			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			Path srcPath = srcFile.toPath();
+			Path targetPath = new File("scrennshot_testform1.png").toPath();
+			Files.copy(srcPath, targetPath, StandardCopyOption.REPLACE_EXISTING);
+		} catch (Exception e) {
+			logger.error(e.getMessage());
+		}
+		
 	}
 }
